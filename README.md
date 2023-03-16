@@ -25,3 +25,6 @@ https://splashy-wishbone-068.notion.site/43fdb42ec0f2409087a678ba457c3b0e
 
 * **Back(Spring)**
   * Not Decided Yet
+
+## Apps Presentation Order :turkey:
+최민선 -> 문채일 -> 김진영 -> 정민주
