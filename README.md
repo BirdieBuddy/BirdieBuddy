@@ -3,7 +3,7 @@
 <br><br><br>
 
 ## Team Members :bird: 
-* **Front(React.js)**: 정민주
+* **Front(React.js)**: 류미성, 정민주
 * **Back(Spring)**: 김진영, 문채일, 최민선
 
 ## Team Discussions :baby_chick:
