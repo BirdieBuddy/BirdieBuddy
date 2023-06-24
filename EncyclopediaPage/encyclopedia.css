@@ -56,7 +56,7 @@ body{
 }
 #main{
     width:85%;
-    height:75%;
+    height:73.8%;
     background-color: #FFFBE9;
     border-radius: 20px;
     margin-top: 1%;
@@ -113,8 +113,11 @@ body{
     height: 3px;
     border: 0;
     background: black;
+    margin-bottom:30%;
 }
 #buttonLine{
+    position:absolute;
+    bottom:0%;
     display: flex;
     background-color:#F5EFD4;
     width:100%;
@@ -181,9 +184,15 @@ body{
     .pageButton{
         font-size:20px;
     }
+    #searchBox{
+        margin-top: 2%;
+    }
 }@media screen and (max-width:600px){
     .pageButton{
         font-size:16px;
+    }
+    #searchBox{
+        margin-top: 2.5%;
     }
 }@media screen and (max-height:500px){
     #buttonLine{
@@ -196,6 +205,9 @@ body{
         height:85%;
     }
     #search{
+        display:none;
+    }
+    #searchMascot{
         display:none;
     }
 }
