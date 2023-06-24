@@ -8,3 +8,9 @@ function changePic(){
     if (num==4){num = 0;}
 }
 setInterval(changePic,1*1000*10)
+
+const startPage = document.getElementById("startPage");
+function openPage(){
+    location.href = "../test/testing.html";
+}
+startPage.addEventListener("submit", openPage);
