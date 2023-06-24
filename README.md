@@ -3,7 +3,7 @@
 <br><br><br>
 
 ## Team Members :bird: 
-* **Front(React.js)**: 류미성, 정민주
+* **Front(React.js)**: 정민주
 * **Back(Spring)**: 김진영, 문채일, 최민선
 
 ## Team Discussions :baby_chick:
@@ -27,4 +27,4 @@ https://splashy-wishbone-068.notion.site/43fdb42ec0f2409087a678ba457c3b0e
   * Not Decided Yet
 
 ## Apps Presentation Order :turkey:
-김진영 -> 문채일 -> 정민주 -> 최민선 -> 류미성
+김진영 -> 문채일 -> 정민주 -> 최민선
