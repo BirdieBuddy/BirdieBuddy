@@ -151,10 +151,10 @@ body{
     margin-top:20px;
     display:grid;
     grid-template-areas: 
-    "pic name name name name"
-    "pic explain explain explain explain"
-    "pic explain explain explain explain"
-    "pic explain explain explain explain";
+    "pic name"
+    "pic explain"
+    "pic explain"
+    "pic explain";
 }
 .birdInfo a{
     color:black;
@@ -169,11 +169,10 @@ body{
 .birdName{
     grid-area:name;
     height:20px;
-    width:200px;
+    width:50vw;
     margin-bottom:15px;
     font-weight:bold;
     font-size:17px;
-    overflow:hidden;
 }
 .birdSciName{
     font-family: 'Jim Nightshade', cursive;
@@ -181,11 +180,18 @@ body{
 }
 .birdExplanation{
     height:80%;
+    width:98%;
+    margin-right:100px;
     grid-area:explain;
-    overflow:hidden;
+    overflow-y:hidden;
 }
 #line{
+    position:absolute;
+    z-index:5;
+    bottom:13.5%;
     height: 3px;
+    width:80vw;
+    margin:0 auto;
     border: 0;
     background: black;
 }
@@ -264,6 +270,9 @@ body{
     #searchMascot{
         display:none;
     }
+    .birdExplanation{
+        width:90%;
+    }
 }@media screen and (max-width:600px){
     .pageButton{
         font-size:16px;
@@ -274,6 +283,9 @@ body{
     }
     #searchBox{
         margin-top: 2.5%;
+    }
+    .birdExplanation{
+        width:80%;
     }
 }@media screen and (max-height:500px){
     #buttonLine{
