@@ -62,106 +62,79 @@ body{
 }
 #profile{
     grid-column: 1 / span 1;
+    margin-left:3vw;
 }
 #profile p{
+    display:inline-block;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
     color:#9DB589;
 }
-#avatar{
-    width:18vw;
-    height:18vw;
-    margin:0 auto;
+#seed{
+    width:15vw;
+    height:8vh;
     background-color: #CCD6A650;
     border:3px #9DB589 solid;
     margin-left:1.3vw;
+    margin-bottom:1vh;
 }
-#nickname{
-    display:inline-block;
-    text-align: center;
-    width:10vw;
-    height:30px;
-    background-color: transparent;
-    outline:none;
-    margin-top:10px;
-    margin-left:5vw;
-    pointer-events: none;
+#avatar{
+    width:15vw;
+    height:15vw;
+    margin-left:1.3vw;
+    background-color: #CCD6A650;
+    border:3px #9DB589 solid;
 }
-#nickname:focus::placeholder{
-    color:transparent;
+#buttons{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:65%;
+    margin:15px auto;
 }
-#editButton1{
-    position: relative;
-    width: 30px;
-    height:30px;
-    top:10px;
+#buttons button{
+    width:5vw;
+    height:4vh;
+    border-radius:10px;
+    background-color: #ACDF87;
+    color:white;
+}
+#buttons button:hover{
     cursor:pointer;
-    float:right;
 }
 #achieve{
     grid-column: 2 / span 6;
 }
-#achieve p{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color:#9DB589;
-}
-#achieve p span{
-    color:#358856;
-}
-#achievements{
-    width:95%;
-    height:125px;
-    margin: 0 auto;
-    background-color: #CCD6A650;
-    border:3px #9DB589 solid;
-}
-#achievements table{
+#outerBox{
     width:80%;
+    height:80%;
+    background-color:#CCD6A620;
+    border:3px solid #9DB589;
+    margin:0 auto;
+}
+#innerBox{
+    width:90%;
+    height:70%;
+    background-color:#9DB58970;
+    margin:0 auto;
+    margin-top:5%;
+}
+#buttons2{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
     margin:10px auto;
 }
-#introduce{
-    display:inline-block;
-    text-align: center;
-    width:50%;
+.inboxButton{
+    width:100px;
     height:30px;
-    background-color: transparent;
-    outline:none;
-    margin-left:25%;
-    margin-top:5px;
-    pointer-events: none;
-}
-#introduce:focus::placeholder{
-    color:transparent;
-}
-#editButton2{
-    position: relative;
-    width: 30px;
-    height:30px;
-    top:10px;
-    margin-right:1vw;
-    cursor:pointer;
-    float:right;
-}
-#buttons{
-    display: flex;   
-    justify-content: flex-end; 
-}
-#buttons button{
-    float: right;
-    position:relative;
-    margin-top:25vh;
-    margin-right:10px;
-    width: 80px;
-    height:30px;
-    color:white;
-    background-color: #ACDF87;
     border-radius:10px;
+    background-color: #DCEC9750;
+    color:#9DB589;
 }
-#buttons button:hover{
-    cursor: pointer;
+.inboxButton:hover{
+    cursor:pointer;
 }
 #line{
     position:absolute;
@@ -266,13 +239,5 @@ body{
     }
     #searchMascot{
         display:none;
-    }
-    #buttons button{
-        margin-top:20vh;
-    }
-}
-@media screen and (max-height:630px){
-    #buttons button{
-        margin-top:8vh;
     }
 }
