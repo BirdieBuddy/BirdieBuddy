@@ -10,11 +10,11 @@
 https://splashy-wishbone-068.notion.site/43fdb42ec0f2409087a678ba457c3b0e
 
 ## Discussion Time :owl:
-* **Wednesday 16:30**
+* **Friday 22:00**
 * Immediate Contact through KakaoTalk GroupChat / Discord Server `코딩서버`
 
 ## Rules :eagle:
-* Not Discussed Yet
+* Not discussed yet
 
 ## Study Material :swan:
 * **Front(React.js)** 
@@ -23,8 +23,10 @@ https://splashy-wishbone-068.notion.site/43fdb42ec0f2409087a678ba457c3b0e
   <img src="https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791160508796.jpg" width="30%">
 
 
-* **Back(Spring)**
-  * Not Decided Yet
+* **Back(Spring)** :egg:
+* ~For Summer Vacation~
+  * 채일 Java Study
+  * 진영&민선 Spring Study
 
 ## Apps Presentation Order :turkey:
 김진영 -> 문채일 -> 정민주 -> 최민선
